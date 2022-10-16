@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Permanent+Marker&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>HomeWorkWeek6</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row align-items-end">
+        <div class="col-auto align-self-start logo">👩‍💻</div>
+        <div class="col-auto">
+          <form class="row g-3" id="city-form">
+            <div class="col-auto">
+              <input
+                type="text"
+                class="form-control form-control-lg"
+                id="city-input"
+                placeholder="What's your city?"
+              />
+            </div>
+            <div class="col-auto">
+              <button
+                type="submit"
+                class="btn mb-3 btn-secondary btn-lg btn1"
+                id="search"
+              >
+                Search
+              </button>
+            </div>
+          </form>
+        </div>
+        <div class="col-auto">
+          <button
+            type="submit"
+            class="btn mb-3 btn-secondary btn-lg btn2"
+            id="current"
+          >
+            Current
+          </button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h1 class="city" id="city">Zaporizhzhia</h1>
+          <h2 class="first-day" id="dayInWeek">Monday</h2>
+
+          <span class="time">
+            <span id="hour">08</span>:<span id="minute">05</span>
+          </span>
+          <h3 id="weather">Sunny</h3>
+          <h2 class="temperature">
+            🌞 <span id="temperature">28</span> <span id="celsius">℃</span>
+          </h2>
+          <br />
+          <div class="row">
+            <div class="col">
+              <ul>
+                <li class="other-day">Tue</li>
+                <li>🌩️</li>
+                <li>16℃</li>
+              </ul>
+            </div>
+            <div class="col">
+              <ul>
+                <li class="other-day">Web</li>
+                <li>🌤️</li>
+                <li>14℃</li>
+              </ul>
+            </div>
+            <div class="col">
+              <ul>
+                <li class="other-day">Thu</li>
+                <li>🌤️</li>
+                <li>12℃</li>
+              </ul>
+            </div>
+            <div class="col">
+              <ul>
+                <li class="other-day">Fri</li>
+                <li>☀️</li>
+                <li>11℃</li>
+              </ul>
+            </div>
+            <div class="col">
+              <ul>
+                <li class="other-day">Sat</li>
+                <li>☀️</li>
+                <li>13℃</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <a href="https://github.com/OleksandraKoshyk/HomeWorkWeek6">
+          Open-source code</a
+        >
+        by Oleksandra Koshyk
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

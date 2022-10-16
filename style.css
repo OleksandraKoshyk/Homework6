@@ -1,0 +1,74 @@
+body {
+  font-family: "Caveat", cursive;
+  font-family: "Permanent Marker", cursive;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Roboto Slab", serif;
+}
+li {
+  font-size: 24px;
+  color: #596aca;
+}
+h3 {
+  color: #ffaa2e;
+  font-weight: 400;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+ul {
+  list-style: none;
+}
+.logo {
+  font-size: 65px;
+}
+.city {
+  color: #ab47bc;
+  background: #f6ecf8;
+  font-style: italic;
+  margin-right: 65%;
+}
+.time {
+  font-size: 16px;
+  color: #1cb3a9;
+  position: relative;
+  top: -5px;
+  display: inline-block;
+}
+.first-day {
+  color: #f4e711;
+  background-color: #fefde7;
+  font-style: italic;
+  display: inline-block;
+  padding-right: 10px;
+}
+.other-day {
+  font-weight: 400;
+  font-size: 24px;
+  color: #1cb3a9;
+  font-style: italic;
+}
+.temperature {
+  color: #42a5f5;
+  font-weight: 400;
+  font-size: 40px;
+}
+.btn1 {
+  background-color: #76d1cb;
+  color: #ab47bc;
+  border: none;
+  transition: 200ms 0 ease-in-out;
+}
+.btn1:hover {
+  background: #ab47bc;
+  color: #76d1cb;
+  border: 3px solid #76d1cb;
+}
+.btn2 {
+  background: #f6ecf8;
+  color: #ab47bc;
+  border: none;
+}
+.btn2:hover {
+  background-color: #f4e711;
+  color: #ffaa2e;
+  border: 3px solid #ffaa2e;
+}
