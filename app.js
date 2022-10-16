@@ -50,10 +50,10 @@ function formatData() {
   let day = document.querySelector("#dayInWeek");
   day.innerHTML = days[now.getDay()];
   let hour = document.querySelector("#hour");
+  hour.innerHTML = `${now.getHours()}`;
   if (now.getHours() < 10) {
     hour.innerHTML = `0${now.getHours()}`;
   }
-  hour.innerHTML = `${now.getHours()}`;
 
   let minute = document.querySelector("#minute");
   minute.innerHTML = `${now.getMinutes()}`;
