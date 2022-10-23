@@ -4,6 +4,15 @@ body {
   font-family: "Roboto Mono", monospace;
   font-family: "Roboto Slab", serif;
 }
+.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  /* Preserve aspet ratio */
+  width: 100%;
+  height: 100%;
+}
 li {
   font-size: 24px;
   color: #596aca;
